@@ -1,75 +1,75 @@
 <header>
 
 <!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
+  <<< Notas del autor: Encabezado del curso >>>
+  Incluya una imagen de 1280×640, título del curso en caso de oración y una descripción concisa en énfasis.
+  En la configuración del repositorio: habilite el repositorio de plantilla, agregue su imagen social de 1280×640, elimine automáticamente las ramas principales.
+  Agregue su licencia de código abierto, GitHub usa la licencia MIT.
 -->
 
-# Introduction to GitHub
+# Introducción a GitHub
 
-_Get started using GitHub in less than an hour._
+_Comienza a usar GitHub en menos de una hora._
 
 </header>
 
 <!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
+  <<< Notas del autor: Paso 1 >>>
+  Elige 3-5 pasos para tu curso.
+  ¡El primer paso siempre es el más difícil, así que elige algo fácil!
+  Enlaza a docs.github.com para explicaciones adicionales.
+  ¡Anima a los usuarios a abrir nuevas pestañas para los pasos!
 -->
 
-## Step 1: Create a branch
+## Paso 1: Crear una rama
 
-_Welcome to "Introduction to GitHub"! :wave:_
+_¡Bienvenido a "Introducción a GitHub"! :wave:_
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+**¿Qué es GitHub?**: GitHub es una plataforma de colaboración que utiliza _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ para el control de versiones. GitHub es un lugar popular para compartir y contribuir a software de _[código abierto](https://docs.github.com/get-started/quickstart/github-glossary#open-source)_.
+<br>:tv: [Video: ¿Qué es GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
 
-**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
+**¿Qué es un repositorio?**: Un _[repositorio](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ es un proyecto que contiene archivos y carpetas. Un repositorio realiza un seguimiento de las versiones de los archivos y carpetas. Para más información, consulta "[Acerca de los repositorios](https://docs.github.com/es/repositories/creating-and-managing-repositories/about-repositories)" de los documentos de GitHub.
 
-**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. Creating additional branches allows you to copy the `main` branch of your repository and safely make any changes without disrupting the main project. Many people use branches to work on specific features without affecting any other parts of the project.
+**¿Qué es una rama?**: Una _[rama](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ es una versión paralela de tu repositorio. Por defecto, tu repositorio tiene una rama llamada `main` y se considera la rama definitiva. Crear ramas adicionales te permite copiar la rama `main` de tu repositorio y hacer cambios de forma segura sin interrumpir el proyecto principal. Muchas personas usan ramas para trabajar en características específicas sin afectar otras partes del proyecto.
 
-Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute. For more information, see "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
+Las ramas te permiten separar tu trabajo de la rama `main`. En otras palabras, el trabajo de todos está seguro mientras contribuyes. Para más información, consulta "[Acerca de las ramas](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
 
-**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ is essentially an "About me" section on your GitHub profile where you can share information about yourself with the community on GitHub.com. GitHub shows your profile README at the top of your profile page. For more information, see "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
+**¿Qué es un README de perfil?**: Un _[README de perfil](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ es esencialmente una sección "Acerca de mí" en tu perfil de GitHub donde puedes compartir información sobre ti mismo con la comunidad en GitHub.com. GitHub muestra tu README de perfil en la parte superior de tu página de perfil. Para más información, consulta "[Gestionar tu README de perfil](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
 
 ![profile-readme-example](/images/profile-readme-example.png)
 
-### :keyboard: Activity: Your first branch
+### :keyboard: Actividad: Tu primera rama
 
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
+1. Abre una nueva pestaña del navegador y navega a tu repositorio recién creado. Luego, trabaja en los pasos en tu segunda pestaña mientras lees las instrucciones en esta pestaña.
+2. Navega a la pestaña **< > Código** en el menú de encabezado de tu repositorio.
 
    ![code-tab](/images/code-tab.png)
 
-3. Click on the **main** branch drop-down.
+3. Haz clic en el menú desplegable de la rama **main**.
 
    ![main-branch-dropdown](/images/main-branch-dropdown.png)
 
-4. In the field, name your branch `my-first-branch`. In this case, the name must be `my-first-branch` to trigger the course workflow.
-5. Click **Create branch: my-first-branch** to create your branch.
+4. En el campo, nombra tu rama `my-first-branch`. En este caso, el nombre debe ser `my-first-branch` para activar el flujo de trabajo del curso.
+5. Haz clic en **Crear rama: my-first-branch** para crear tu rama.
 
    ![create-branch-button](/images/create-branch-button.png)
 
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
+   La rama cambiará automáticamente a la que acabas de crear.
+   La barra desplegable de la rama **main** reflejará tu nueva rama y mostrará el nuevo nombre de rama.
 
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+6. Espera aproximadamente 20 segundos y luego actualiza esta página (la página de instrucciones que estás siguiendo). [GitHub Actions](https://docs.github.com/es/actions) actualizará automáticamente al siguiente paso.
 
 <footer>
 
 <!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
+  <<< Notas del autor: Pie de página >>>
+  Agrega un enlace para obtener ayuda, página de estado de GitHub, código de conducta, enlace de licencia.
 -->
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/community/discussions/categories/github-education) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Obtén ayuda: [Publica en nuestro foro de discusión](https://github.com/orgs/community/discussions/categories/github-education) &bull; [Revisa la página de estado de GitHub](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2023 GitHub &bull; [Código de conducta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [Licencia MIT](https://gh.io/mit)
 
 </footer>
